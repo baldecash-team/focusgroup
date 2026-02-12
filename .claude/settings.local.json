@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(npx create-next-app@latest:*)",
+      "Bash(robocopy:*)",
+      "Bash(npm run build:*)",
+      "Bash(npx next build:*)",
+      "Bash(openssl rand:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nfeat: focus group gateway con UI mejorada, fuente Asap y loader BaldeCash\n\n- Gateway de redirección con tokens HMAC-SHA256\n- Sesiones configurables via sessions.json\n- Páginas de error \\(invalid/expired\\) con UI limpia\n- Loader SVG animado de BaldeCash con progress bar\n- Fuente Asap de Google Fonts, fondo blanco\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\nEOF\n\\)\")"
+    ]
+  }
+}

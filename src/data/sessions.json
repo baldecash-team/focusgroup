@@ -1,0 +1,36 @@
+[
+  {
+    "code": "abc123",
+    "target": "https://demo.baldecash.com",
+    "path": "/prototipos/0.6/upn",
+    "expires": "2026-02-12T23:00:00-05:00",
+    "label": "Focus Group - UPN Febrero 2026",
+    "active": true
+  },
+  {
+    "code": "xyz789",
+    "target": "https://otro-proyecto.baldecash.com",
+    "path": "/",
+    "expires": "2026-03-15T18:00:00-05:00",
+    "label": "Focus Group - Piloto Marzo",
+    "active": true
+  },
+  {
+    "code": "abd123",
+    "token": "mi-token-test",
+    "target": "http://localhost:3000",
+    "path": "/prototipos/0.5/hero/hero-preview/?mode=clean",
+    "expires": "2026-12-31T23:00:00-05:00",
+    "label": "Focus Group - Test Local",
+    "active": true
+  },
+  {
+    "code": "baldecash-ux-feb26",
+    "token": "ea9933358e7771fe353bcb5cca30b988c870729ae6088d3814fa4d92c4dcbf93",
+    "target": "https://demo.baldecash.com",
+    "path": "/prototipos/0.5/hero/hero-preview/?mode=clean",
+    "expires": "2026-02-12T23:00:00-05:00",
+    "label": "Validación UX - BaldeCash Web - Feb 2026",
+    "active": true
+  }
+]
