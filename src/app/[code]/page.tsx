@@ -22,5 +22,5 @@ export default async function CodePage({
   const session = result.session!;
   const redirectUrl = buildRedirectUrl(session.target, session.path, session.code);
 
-  return <RedirectLoader url={redirectUrl} />;
+  return <RedirectLoader url={redirectUrl} code={session.code} />;
 }

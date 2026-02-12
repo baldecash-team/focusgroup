@@ -2,8 +2,9 @@
 
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import { trackEvent } from "@/components/google-analytics";
 
-export default function RedirectLoader({ url }: { url: string }) {
+export default function RedirectLoader({ url, code }: { url: string; code: string }) {
   const [progress, setProgress] = useState(0);
 
   useEffect(() => {
@@ -20,6 +21,8 @@ export default function RedirectLoader({ url }: { url: string }) {
         return prev + step;
       });
     }, interval);
+
+    trackEvent("fg_redirect", { code, target: url });
 
     const redirectTimer = setTimeout(() => {
       window.location.href = url;

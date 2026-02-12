@@ -1,6 +1,14 @@
+"use client";
+
 import Link from "next/link";
+import { useEffect } from "react";
+import { trackEvent } from "@/components/google-analytics";
 
 export default function InvalidPage() {
+  useEffect(() => {
+    trackEvent("fg_invalid_link");
+  }, []);
+
   return (
     <main className="flex min-h-screen flex-col items-center justify-center px-6 text-center">
       <div className="flex flex-col items-center gap-6 max-w-sm">
